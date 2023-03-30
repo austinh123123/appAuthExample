@@ -3,7 +3,8 @@ const defaultUserFlow = "B2C_1_testUserFlow";
 
 const authConfig = {
     clientId: "03c7404c-2aa1-47d2-a839-f8a1b6b3c203",
-    redirectUrl: `authExApp://oauth/redirect/`, // make sure to add 'manifestPlaceholders = [appAuthRedirectScheme: 'authExApp']' to your app's build.gradle file 
+    redirectUrl: `authExApp://oauth/redirect/`, 
+    // make sure to add 'manifestPlaceholders = [appAuthRedirectScheme: 'authExApp']' to your app's build.gradle file /android/app/build.gradle
     // under 'android' -> 'defaultConfig' -> 'manifestPlaceholders' NOT SURE what to do for iOS
     scopes: ["openid", "offline_access", "profile"],
     serviceConfiguration: {
