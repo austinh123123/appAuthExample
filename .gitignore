@@ -16,9 +16,7 @@ ios/
 ios/*
 ios/main.jsbundle
 ios/**/*
-android/
-android/*
-android/**/*
+
 
 .vs/
 *.log
